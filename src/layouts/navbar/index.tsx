@@ -80,7 +80,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <AppBar component="nav" className="bg-white  sm:w-[80%] mx-auto sticky top-0 sm:mt-5 sm:rounded-lg shadow-lg">
+      <AppBar component="nav" className="bg-white sm:max-w-[80%] mx-auto sticky top-0 sm:mt-5 sm:rounded-lg shadow-lg">
         <Toolbar className="justify-between">
           <IconButton
             aria-label="open drawer"
