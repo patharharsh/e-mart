@@ -9,7 +9,6 @@ export default function Home() {
         subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         img="./headphones.png"
       />
-      <SectionTitle />
     </>
   );
 }
