@@ -2,6 +2,7 @@
 import { useState } from "react";
 import TopNav from "./header/TopNav";
 import HeaderActionBtns from "./HeaderActionBtns";
+import Navbar from "./header/Navbar";
 
 const MobileNav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,9 +42,8 @@ const MobileNav = () => {
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="">
-          <TopNav />
-        </div>
+        <TopNav />
+        <Navbar toggleDrawer={toggleDrawer} />
       </div>
       {isOpen && (
         <div
