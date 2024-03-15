@@ -12,7 +12,7 @@ const HeaderActionBtns = () => {
             <IoBagHandleOutline />
             <div className="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-[#00B207] border-2 border-white rounded-full -top-2 -end-2">2</div>
           </div>
-          <div>
+          <div className="hidden md:block">
             <h6 className="text-xs font-light">Shopping cart:</h6>
             <h3 className="text-sm font-semibold">$ 50.00</h3>
           </div>
