@@ -38,8 +38,8 @@ const Navbar = ({toggleDrawer}: any) => {
         <div className="container mx-auto flex justify-between flex-col md:flex-row">
           <div>
             <ul className="flex px-6 md:p-0 md:items-center gap-8 flex-col md:flex-row">
-              {navbar?.map((item) => (
-                <li className=""> <Link href={item?.path} onClick={toggleDrawer}  className={`hover:text-[#00B207] ${isActive(item?.path) ? "text-[#00B207]" : ""} `}> {item?.lable} </Link></li>
+              {navbar?.map((item, index) => (
+                <li key={index}> <Link href={item?.path} onClick={toggleDrawer}  className={`hover:text-[#00B207] ${isActive(item?.path) ? "text-[#00B207]" : ""} `}> {item?.lable} </Link></li>
               ))}
             </ul> 
           </div>
