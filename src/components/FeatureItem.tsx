@@ -9,8 +9,8 @@ interface FeatureItemProps {
 
 const FeatureItem = ({ Icon, name, description }: FeatureItemProps) => {
   return (
-    <div className="flex flex-col md:flex-row gap-4 text-center md:text-left">
-      {Icon && <Icon size={40} className="text-[#00B207] mx-auto" />}
+    <div className="flex flex-col md:flex-row md:justify-start gap-4 text-center md:text-left">
+      {Icon && <Icon size={40} className="text-[#00B207] mx-auto md:mx-0" />}
       <div>
         {name && <h1 className="text-base font-semibold ">{name}</h1>}
         {description && <p className="text-sm font-normal">{description}</p>}
