@@ -1,4 +1,5 @@
 import FeatureSection from "@/sections/FeatureSection";
+import FeaturedProducts from "@/sections/FeaturedProducts";
 import HeroSection from "@/sections/HeroSection";
 import LatestNews from "@/sections/LatestNews";
 import PopularCategories from "@/sections/PopularCategories";
@@ -12,6 +13,7 @@ export default function Home() {
     <PopularCategories />
     <PopularProducts />
     <LatestNews />
+    <FeaturedProducts />
    </>
   );
 }
