@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { CiLocationOn } from "react-icons/ci";
 
@@ -23,9 +24,9 @@ const TopNav = () => {
                 <option value="inr">INR</option>
               </select>
             </div>
-            <div className="font-light text-xs">
+            <Link href={'/login'}  className="font-light text-xs">
                 sign up / sign in
-            </div>
+            </Link>
           </div>
         </div>
       </div>
