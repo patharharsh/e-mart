@@ -3,6 +3,7 @@ import { IoBagHandleOutline } from "react-icons/io5";
 import { FaStar } from "react-icons/fa";
 import { IoIosHeartEmpty } from "react-icons/io";
 import { IoEyeOutline } from "react-icons/io5";
+import IconBtn from "./IconBtn";
 
 interface PopularProductsDataType {
   name: string;
@@ -26,8 +27,8 @@ const ProductCard = ({data}: ProductCardProps) => {
     <div className="border group border-1 py-5 hover:shadow-lg hover:shadow-[#c8f6c9] hover:border-[#00B207]">
       <div className="relative">
         <div className="group-hover:flex hidden  flex-col absolute right-0">
-        <button className="text-black bg-white hover:bg-[#00B207] hover:text-[#ffffff] font-medium rounded-full text-sm p-4 text-center me-2 mb-2 border border-1 "><IoIosHeartEmpty size={22} /></button>
-        <button className="text-black bg-white hover:bg-[#00B207] hover:text-[#ffffff] font-medium rounded-full text-sm p-4 text-center me-2 mb-2 border border-1 "><IoEyeOutline size={22} /></button>
+          <IconBtn Icon={IoIosHeartEmpty} size="small" />
+          <IconBtn Icon={IoEyeOutline} size="small" />
         </div>
         <img src={imgPath} className="w-full" />
       </div>
@@ -45,7 +46,7 @@ const ProductCard = ({data}: ProductCardProps) => {
           </div>
         </div>
         <div>
-            <button className="text-black bg-gray-100 hover:bg-[#00B207] hover:text-[#ffffff] font-medium rounded-full text-sm p-5 text-center me-2 mb-2 "><IoBagHandleOutline size={28} /></button>
+          <IconBtn size="large" Icon={IoBagHandleOutline} />
         </div>
       </div>
     </div>
