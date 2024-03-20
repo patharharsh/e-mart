@@ -1,7 +1,4 @@
 import React from "react";
-import IconBtn from "../IconBtn";
-
-import NewsLetterInput from "../NewsLetterInput";
 import NewsLetter from "./NewsLetter";
 import Link from "next/link";
 

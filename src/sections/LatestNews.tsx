@@ -6,7 +6,7 @@ const LatestNews = () => {
   return (
     <div className="container mx-auto my-10 ">
       <SectionTitle title="Letest News" align="center" />
-      <div className="grid grid-cols-2 md:grid-cols-3  gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3  gap-8">
         <NewsCard />
         <NewsCard />
         <NewsCard />
