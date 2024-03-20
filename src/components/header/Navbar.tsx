@@ -22,10 +22,11 @@ const Navbar = ({toggleDrawer}: any) => {
       lable: "About Us",
       path: "/about-us",
     },
+    
     {
       lable: "Contact Us",
       path: "/contact-us",
-    },
+    }
   ];
 
   const pathname = usePathname();
