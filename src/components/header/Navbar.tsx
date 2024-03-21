@@ -12,7 +12,7 @@ const Navbar = ({toggleDrawer}: any) => {
     },
     {
       lable: "Shop",
-      path: "/shop",
+      path: "/category",
     },
     {
       lable: "Blog",

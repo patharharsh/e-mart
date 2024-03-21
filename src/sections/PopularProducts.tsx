@@ -1,16 +1,10 @@
 import ProductCard from "@/components/ProductCard";
 import SectionTitle from "@/components/SectionTitle";
+import { ProductsDataType } from "@/types/product.type";
 import React from "react";
 
-interface PopularProductsDataType {
-  name: string;
-  spPrize: number;
-  prize: number;
-  rating: number;
-  imgPath: string;
-}
 
-const popularProductsData: PopularProductsDataType[] = [
+const popularProductsData: ProductsDataType[] = [
   {
     name: "Green Apple",
     spPrize: 14.0,
@@ -90,7 +84,7 @@ const PopularProducts = () => {
 
       <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2">
         {popularProductsData?.map(
-          (item: PopularProductsDataType, index: number) => (
+          (item: ProductsDataType, index: number) => (
             <ProductCard data={item} key={index} />
           )
         )}
