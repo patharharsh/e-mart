@@ -9,8 +9,6 @@ import { IoIosHeartEmpty } from "react-icons/io";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-import SectionTitle from "@/components/SectionTitle";
-import FeaturedProducts from "@/sections/FeaturedProducts";
 import RelatedProducts from "@/sections/RelatedProducts";
 
 const page = () => {
