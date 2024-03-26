@@ -23,7 +23,7 @@ const CartDrawer = () => {
   return (
     <div>
       <div
-        className="border-l-2 pl-3 flex gap-2 cursor-pointer "
+        className="border-l-2 pl-3 flex gap-2 cursor-pointer"
         onClick={() => setShow(true)}
       >
         <div className="relative">
