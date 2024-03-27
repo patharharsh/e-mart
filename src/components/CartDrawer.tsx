@@ -69,8 +69,8 @@ const CartDrawer = () => {
         </div>
         <div className="flex flex-col justify-between h-[calc(100vh-100px)]">
           <div>
-            {cartData?.map((item) => (
-              <DrawerItem product={item?.product} quntity={item?.quntity} />
+            {cartData?.map((item, index) => (
+              <DrawerItem product={item?.product} quntity={item?.quntity} key={index} />
             ))}
           </div>
           <div>
