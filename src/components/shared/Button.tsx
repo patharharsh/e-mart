@@ -14,7 +14,7 @@ const Button = ({ children, varient = "primary", ...props }: ButtonProps) => {
 
   return (
     <>
-      <button className={btnClasses}>{children}</button>
+      <button className={btnClasses} {...props}>{children}</button>
     </>
   );
 };
