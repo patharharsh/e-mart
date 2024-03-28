@@ -78,6 +78,7 @@ const popularProductsData: ProductsDataType[] = [
 ];
 
 const PopularProducts = () => {
+
   return (
     <div className="container mx-auto">
       <SectionTitle title="Popular Products" isViewAll={true} />
