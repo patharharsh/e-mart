@@ -6,10 +6,11 @@ import { FiMinus, FiPlus } from "react-icons/fi";
 
 interface CounterButtonProp  {
     onChange: Function
+    value?: number
   };
 
-const CounterButton = ({onChange}: CounterButtonProp) => {
-  const [count, setCount] = useState(1);
+const CounterButton = ({onChange, value=1}: CounterButtonProp) => {
+  const [count, setCount] = useState(value);
 
 
   const handleMinus = () => {
@@ -28,10 +29,10 @@ const CounterButton = ({onChange}: CounterButtonProp) => {
   },[count])
 
   return (
-    <div className="inline-flex items-center gap-5 border border-1 p-1 rounded-full justify-between ">
-      <IconBtn Icon={FiMinus} onClick={handleMinus} />
-      <span className="text-2xl">{count}</span>
-      <IconBtn Icon={FiPlus} onClick={handlePlus} />
+    <div className="inline-flex items-center gap-2 border border-1 p-1 rounded-full justify-between ">
+      <IconBtn Icon={FiMinus} onClick={handleMinus} size="extra-small" />
+      <span className="text-xl">{count}</span>
+      <IconBtn Icon={FiPlus} onClick={handlePlus} size="extra-small" />
     </div>
   );
 };

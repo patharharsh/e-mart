@@ -15,15 +15,15 @@ const IconBtn = ({
 }: IconBtnProps) => {
   const BtnClasses = classNames(
     {
-      "text-black bg-gray-100 hover:bg-[#00B207] hover:text-[#ffffff] font-medium rounded-full text-sm p-5 text-center me-2 mb-2 ":
+      "text-black bg-gray-100 hover:bg-[#00B207] hover:text-[#ffffff] font-medium rounded-full text-sm p-5 text-center":
         size === "large",
     },
     {
-      "text-black bg-white hover:bg-[#00B207] hover:text-[#ffffff] font-medium rounded-full text-sm p-4 text-center me-2 mb-2 border border-1 ":
+      "text-black bg-white hover:bg-[#00B207] hover:text-[#ffffff] font-medium rounded-full text-sm p-4 text-center border border-1 ":
         size === "small",
     },
     {
-      "text-black bg-white hover:bg-[#00B207] hover:text-[#ffffff] font-medium rounded-full text-sm p-2 text-center me-2 mb-2 border border-1 ":
+      "text-black bg-white hover:bg-[#00B207] hover:text-[#ffffff] font-medium rounded-full text-sm p-2 text-center  border border-1 ":
         size === "extra-small",
     },
     {
