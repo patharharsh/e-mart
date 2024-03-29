@@ -1,6 +1,5 @@
 import React from "react";
 import { IoIosHeartEmpty } from "react-icons/io";
-import { IoBagHandleOutline } from "react-icons/io5";
 import CartDrawer from "./CartDrawer";
 
 const HeaderActionBtns = () => {
