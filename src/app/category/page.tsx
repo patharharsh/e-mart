@@ -8,6 +8,7 @@ import React, { useState } from "react";
 
 const ProductsData: ProductsDataType[] = [
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -15,6 +16,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -22,6 +24,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -29,6 +32,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -36,6 +40,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -43,6 +48,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -50,6 +56,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -57,6 +64,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -64,6 +72,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -71,6 +80,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -78,6 +88,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -85,6 +96,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -92,6 +104,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -99,6 +112,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -106,6 +120,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -113,6 +128,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -120,6 +136,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -127,6 +144,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -134,6 +152,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -141,6 +160,7 @@ const ProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,

@@ -1,8 +1,8 @@
 export interface ProductsDataType {
-    name: string;
-    spPrize: number;
-    prize: number;
-    rating: number;
-    imgPath: string;
-  }
-  
+  sku: string;
+  name: string;
+  spPrize: number;
+  prize: number;
+  rating: number;
+  imgPath: string;
+}

@@ -11,6 +11,7 @@ import { useRouter } from "next/navigation";
 const cartData: cartItem[] = [
   {
     product: {
+      sku: "sku",
       name: "Green Apple",
       spPrize: 14.0,
       prize: 20.0,
@@ -70,7 +71,11 @@ const CartDrawer = () => {
         <div className="flex flex-col justify-between h-[calc(100vh-100px)]">
           <div>
             {cartData?.map((item, index) => (
-              <DrawerItem product={item?.product} quntity={item?.quntity} key={index} />
+              <DrawerItem
+                product={item?.product}
+                quntity={item?.quntity}
+                key={index}
+              />
             ))}
           </div>
           <div>

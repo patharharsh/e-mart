@@ -20,7 +20,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
+        <div className="md:p-0 p-2">
         {children}
+        </div>
         <Footer />
         </body>
     </html>

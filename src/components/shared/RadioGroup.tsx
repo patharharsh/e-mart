@@ -1,4 +1,5 @@
-import React from 'react'
+'use client';
+import React, { useEffect, useState } from 'react'
 import Radio from './Radio'
 
 
@@ -9,7 +10,9 @@ interface RadioGroupProps {
     handleChange?: any
 }
 
-const RadioGroup = ({values, name, seletedValue, handleChange}: RadioGroupProps) => {
+const RadioGroup = ({values, name, seletedValue = "", handleChange}: RadioGroupProps) => {
+
+
   return (
     <div>
       {values?.map((value : string, index: number) => <Radio key={index} label={value} name={name} value={value} checked={value === seletedValue} onChange={() => handleChange(value)}  />)}

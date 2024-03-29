@@ -13,7 +13,7 @@ const Input = ({
     <div className="relative border border-1 px-4 py-2 rounded-md">
       <input
         type={type === "password" ? (show ? "text" : "password") : type}
-        className="w-full focus:outline-none text-md border-0"
+        className="w-full focus:outline-none focus:ring-0 text-md border-0"
         {...props}
       />
       {type === "password" && (

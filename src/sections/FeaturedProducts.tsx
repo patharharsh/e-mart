@@ -6,6 +6,7 @@ import React from "react";
 
 const popularProductsData: ProductsDataType[] = [
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -13,6 +14,7 @@ const popularProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -20,6 +22,7 @@ const popularProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -27,6 +30,7 @@ const popularProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,
@@ -34,6 +38,7 @@ const popularProductsData: ProductsDataType[] = [
     imgPath: "/product.png",
   },
   {
+    sku: 'sku',
     name: "Green Apple",
     spPrize: 14.0,
     prize: 20.0,

@@ -4,8 +4,10 @@ import { FaStar } from "react-icons/fa";
 import { IoIosHeartEmpty } from "react-icons/io";
 import { IoEyeOutline } from "react-icons/io5";
 import IconBtn from "./IconBtn";
+import Link from "next/link";
 
 interface PopularProductsDataType {
+  sku: string;
   name: string;
   spPrize: number;
   prize: number;
@@ -21,7 +23,7 @@ interface ProductCardProps {
 
 const ProductCard = ({data}: ProductCardProps) => {
 
-  const {name, spPrize, prize, imgPath} = data
+  const {name, spPrize, prize, imgPath, sku} = data
 
   return (
     <div className="border group border-1 py-5 hover:shadow-lg hover:shadow-[#c8f6c9] hover:border-[#00B207]">
@@ -33,7 +35,7 @@ const ProductCard = ({data}: ProductCardProps) => {
         <img src={imgPath} className="w-full" />
       </div>
       <div className="flex items-center justify-between px-5">
-        <div>
+        <Link href={`/product/${sku}`}>
           <h6 className="text-base font-normal leading-6">{name}</h6>
           <h4 className="text-base font-medium leading-6">
             $ {spPrize}
@@ -44,7 +46,7 @@ const ProductCard = ({data}: ProductCardProps) => {
           <div className="flex my-2">
           <FaStar className="text-[#FF8A00]" /><FaStar className="text-[#FF8A00]"  /><FaStar className="text-[#FF8A00]"  /><FaStar className="text-[#FF8A00]"  /><FaStar className="text-[#CCCCCC]"  />
           </div>
-        </div>
+        </Link>
         <div>
           <IconBtn size="large" Icon={IoBagHandleOutline} />
         </div>
